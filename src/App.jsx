@@ -18,10 +18,11 @@ function App() {
     setOpenSidebarToggle(!openSidebarToggle)
   }
 
+  
   return (
     <Router>
       <div className='grid-container'>
-        <Header OpenSidebar={OpenSidebar}/>
+        <Header OpenSidebar={OpenSidebar} />
         <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
         <main className='main-container'>
           <Switch>

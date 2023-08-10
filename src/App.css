@@ -79,12 +79,29 @@ input {
 .elipse {
   border-radius: 50%;
   background: #992621;
+  cursor: pointer;
 }
 
 .elipse img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+}
+
+.profile-details {
+  position: relative;
+}
+
+.logout-button {
+  position: absolute;
+  top: 110px; /* Adjust this value to position the logout button correctly */
+  right: 10px;
+  padding: 8px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* End of Header */
