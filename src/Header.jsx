@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsJustify } from 'react-icons/bs'
+ import { BsJustify } from 'react-icons/bs'
 import softlife from './assets/softlife.png'
 
 function Header({OpenSidebar}) {
@@ -8,7 +8,7 @@ function Header({OpenSidebar}) {
         <div className='menu-icon'>
             <BsJustify className='icon' onClick={OpenSidebar}/>
         </div>
-        <div className='header-left'>
+        <div className='header-left'>   
         <form action="" className='d-flex'>
             <input type="text" placeholder='Search...'/>
             <button className='pill-button'>Search</button>
